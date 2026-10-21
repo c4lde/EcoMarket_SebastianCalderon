@@ -1,0 +1,72 @@
+/* Header */
+.cabecera {
+    display: grid;
+    grid-template-areas:
+        "logo accesos"
+        "menu menu";
+    align-items: center;
+    gap: var(--espacio-md);
+    padding: var(--espacio-md);
+    background-color: var(--color-blanco);
+    border-bottom: 1px solid var(--color-borde);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+    gap: var(--espacio-sm);
+    font-family: var(--fuente-titulos);
+    font-size: 1.5rem;
+}
+
+.logo img {
+    width: 28px;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu a {
+    font-weight: 600;
+    color: var(--color-texto-suave);
+}
+
+.menu a:hover,
+.menu a.activo {
+    color: var(--color-primario-oscuro);
+}
+
+.accesos {
+    grid-area: accesos;
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--espacio-md);
+}
+
+.accesos img {
+    width: 24px;
+}
+
+/* Escritorio */
+@media (min-width: 1024px) {
+    .cabecera {
+        grid-template-areas: "logo menu accesos";
+        grid-template-columns: 1fr auto 1fr;
+        padding: var(--espacio-md) var(--espacio-xl);
+    }
+
+    .menu ul {
+        gap: var(--espacio-lg);
+    }
+}
