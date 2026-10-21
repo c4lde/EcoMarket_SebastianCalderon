@@ -58,6 +58,37 @@
     width: 24px;
 }
 
+/* Hero */
+.hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    padding: var(--espacio-lg) var(--espacio-md);
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
+        url("../img/hero/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--color-blanco);
+}
+
+.hero-contenido {
+    max-width: 36rem;
+}
+
+.hero-insignia {
+    display: inline-block;
+    padding: 0.3em 0.9em;
+    margin-bottom: var(--espacio-md);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: var(--radio-pildora);
+    font-size: 0.875rem;
+}
+
+.hero p {
+    margin: var(--espacio-md) 0 var(--espacio-lg);
+}
+
 /* Escritorio */
 @media (min-width: 1024px) {
     .cabecera {
@@ -68,5 +99,11 @@
 
     .menu ul {
         gap: var(--espacio-lg);
+    }
+
+    .hero {
+        min-height: 80vh;
+        align-items: center;
+        padding: var(--espacio-xl);
     }
 }

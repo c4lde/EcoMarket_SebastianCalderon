@@ -1,0 +1,14 @@
+/* Botones */
+.btn {
+    display: inline-block;
+    padding: 0.9em 1.8em;
+    border-radius: var(--radio-pildora);
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    font-weight: 600;
+    transition: background-color var(--transicion);
+}
+
+.btn:hover {
+    background-color: var(--color-primario-oscuro);
+}
