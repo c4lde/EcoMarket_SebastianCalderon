@@ -245,6 +245,26 @@
     margin-top: var(--espacio-lg);
 }
 
+.testimonios {
+    padding: var(--espacio-xl) 0;
+    text-align: center;
+}
+
+.testimonios h2 {
+    padding: 0 var(--espacio-md);
+}
+
+.carrusel {
+    margin-top: var(--espacio-lg);
+    padding: var(--espacio-md) 0;
+    overflow: hidden;
+}
+
+.carrusel-pista {
+    display: flex;
+    width: max-content;
+}
+
 @media (min-width: 600px) {
     .destacados-grid {
         grid-template-columns: repeat(2, 1fr);

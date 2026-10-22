@@ -301,3 +301,45 @@
     color: var(--color-texto-suave);
 }
 
+.testimonio {
+    display: flex;
+    flex-direction: column;
+    gap: var(--espacio-md);
+    width: 300px;
+    margin-right: var(--espacio-lg);
+    padding: var(--espacio-lg);
+    background-color: var(--color-blanco);
+    border-radius: var(--radio);
+    box-shadow: var(--sombra);
+    text-align: left;
+}
+
+.estrellas {
+    color: var(--color-estrella);
+    letter-spacing: 0.1em;
+}
+
+.testimonio p {
+    font-style: italic;
+}
+
+.testimonio-autor {
+    display: flex;
+    align-items: center;
+    gap: var(--espacio-sm);
+    margin-top: auto;
+}
+
+.testimonio-autor img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonio-autor span {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--color-texto-suave);
+}
+
