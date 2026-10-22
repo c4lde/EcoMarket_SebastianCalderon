@@ -67,7 +67,7 @@
 }
 
 .carrusel-pista {
-    animation: desplazar 40s linear infinite;
+    animation: desplazar 80s linear infinite;
 }
 
 .carrusel:hover .carrusel-pista {
@@ -81,6 +81,20 @@
 .testimonio:hover {
     transform: translateY(-6px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.campo input,
+.campo textarea {
+    transition: border-color var(--transicion), background-color var(--transicion);
+}
+
+.redes-sociales a {
+    transition: transform var(--transicion), border-color var(--transicion);
+}
+
+.redes-sociales a:hover {
+    transform: scale(1.15);
+    border-color: var(--color-primario);
 }
 
 @media (prefers-reduced-motion: reduce) {
