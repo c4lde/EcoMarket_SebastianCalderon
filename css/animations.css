@@ -39,3 +39,19 @@
 .paginacion a {
     transition: background-color var(--transicion), border-color var(--transicion), color var(--transicion);
 }
+
+.principio {
+    transition: transform var(--transicion);
+}
+
+.principio:hover {
+    transform: translateY(-6px);
+}
+
+.principio img {
+    transition: transform var(--transicion);
+}
+
+.principio:hover img {
+    transform: scale(1.1);
+}
