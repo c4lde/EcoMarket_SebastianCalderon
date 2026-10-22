@@ -196,6 +196,75 @@
     gap: var(--espacio-lg);
 }
 
+.banner {
+    padding: var(--espacio-xl) var(--espacio-md);
+    background: linear-gradient(135deg, var(--color-primario-oscuro), var(--color-primario));
+    color: var(--color-blanco);
+    text-align: center;
+}
+
+.banner p {
+    max-width: 32rem;
+    margin: var(--espacio-md) auto 0;
+}
+
+.historia {
+    display: flex;
+    flex-direction: column;
+    gap: var(--espacio-lg);
+    padding: var(--espacio-xl) var(--espacio-md);
+}
+
+.historia img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--radio);
+    box-shadow: var(--sombra);
+}
+
+.historia-texto {
+    display: flex;
+    flex-direction: column;
+    gap: var(--espacio-md);
+}
+
+.historia-texto p {
+    color: var(--color-texto-suave);
+}
+
+.principios {
+    padding: var(--espacio-xl) var(--espacio-md);
+    background-color: var(--color-blanco);
+    text-align: center;
+}
+
+.principios-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--espacio-lg);
+    margin-top: var(--espacio-lg);
+}
+
+.testimonios {
+    padding: var(--espacio-xl) 0;
+    text-align: center;
+}
+
+.testimonios h2 {
+    padding: 0 var(--espacio-md);
+}
+
+.carrusel {
+    margin-top: var(--espacio-lg);
+    padding: var(--espacio-md) 0;
+    overflow: hidden;
+}
+
+.carrusel-pista {
+    display: flex;
+    width: max-content;
+}
+
 @media (min-width: 600px) {
     .destacados-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -220,6 +289,10 @@
     }
 
     .productos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .principios-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -274,6 +347,30 @@
 
     .productos-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .banner {
+        padding: 6rem var(--espacio-xl);
+    }
+
+    .historia {
+        flex-direction: row;
+        align-items: center;
+        gap: var(--espacio-xl);
+        padding: var(--espacio-xl);
+    }
+
+    .historia img,
+    .historia-texto {
+        width: 50%;
+    }
+
+    .principios {
+        padding: var(--espacio-xl);
+    }
+
+    .principios-grid {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
