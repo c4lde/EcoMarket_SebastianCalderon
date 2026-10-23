@@ -86,7 +86,7 @@
     box-shadow: var(--sombra);
 }
 
-.filtro h3 {
+.filtro h2 {
     margin-bottom: var(--espacio-sm);
     font-size: 1.1rem;
 }
