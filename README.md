@@ -1,6 +1,6 @@
 # EcoMarket
 
-Tienda en línea de productos ecológicos, reutilizables y sustentables. Proyecto #1 de Campuslands, maquetado solo con HTML5 y CSS3, sin JavaScript ni frameworks.
+Tienda en línea de productos ecológicos, reutilizables y sustentables.
 
 **Sitio publicado:** https://ecomarket-sebastiancalderon.netlify.app
 
