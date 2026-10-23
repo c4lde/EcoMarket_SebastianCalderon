@@ -31,7 +31,7 @@ No hace falta instalar nada, porque el proyecto no tiene dependencias.
 
 ## Tecnologías utilizadas
 
-- **HTML5 semántico:** `header`, `nav`, `main`, `section`, `article`, `aside`, `form` y `footer`.
+- **HTML5 semántico:** `header`, `nav`, `main`, `section`, `article`, `aside`, `figure`, `form` y `footer`.
 - **CSS3:** variables en `:root`, Flexbox, Grid, media queries, transiciones y `@keyframes`.
 - **Google Fonts:** Playfair Display para los títulos e Inter para el texto.
 - **Git y GitHub**, trabajando con GitFlow.
@@ -69,7 +69,7 @@ Se trabajó con enfoque **Mobile First**: los estilos base son los del celular y
 |---|---|
 | Base (celular) | Todo en una columna. El menú va en una segunda fila de la cabecera y los filtros quedan arriba de los productos. |
 | 600px (tablet) | Productos destacados, catálogo y principios en 2 columnas, filtros en 3 columnas y pie de página en 2. |
-| 1024px (escritorio) | La cabecera queda en una sola fila, los filtros pasan a una barra lateral fija con `position: sticky` y el catálogo pasa a 3 columnas. La historia muestra imagen y texto lado a lado, los principios van en 4 columnas y en contacto el formulario queda al lado de la información. |
+| 1024px (escritorio) | La cabecera queda en una sola fila, los filtros pasan a una barra lateral que acompaña el scroll con `position: sticky` y el catálogo pasa a 3 columnas. La historia muestra imagen y texto lado a lado, los principios van en 4 columnas y en contacto el formulario queda al lado de la información. |
 | 1280px | El catálogo pasa a 4 columnas. |
 
 ## Interactividad con CSS
